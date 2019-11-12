@@ -10,7 +10,6 @@ MQTT_KEEPALIVE_INTERVAL = 45
 MQTT_TOPIC = "AulaDoGui"
 MQTT_MSG = "Aula do gui"
 
-
 # onpublish para publicar
 def on_publish(client, userdata, mid):
     print("Message Published...")
